@@ -1,3 +1,11 @@
+Welcome to Ayra's Balloon Learning Adventure!
+
+Pop the correct balloon,
+learn letters and numbers,
+and collect stars along the way!
+
+![Game Screenshot](src/assets/images/gameScreenshot.png)
+
 # React + TypeScript + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.

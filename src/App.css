@@ -1,18 +1,28 @@
 body {
   margin: 0;
+  padding: 0;
   overflow: hidden;
-  font-family: sans-serif;
 }
 
 .app {
   width: 100vw;
   height: 100vh;
 
-  background-image: url("./assets/images/background.png");
+  background-image: url("./assets/images/one.png");
   background-size: cover;
   background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.score {
+  font-size: 40px;
+  float: right;
+  margin-right: 10px;
+  color: blueviolet;
+  margin-top: 10px;
+  font-weight: 500;
 }
